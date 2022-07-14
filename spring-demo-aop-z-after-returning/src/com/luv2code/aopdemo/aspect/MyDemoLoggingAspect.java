@@ -62,8 +62,7 @@ public class MyDemoLoggingAspect {
 		System.out.println("Method: " + methodSig);
 		
 		//display method arguments
-		
-		
+				
 		//get args
 		Object[] args = theJoinPoint.getArgs();
 		
