@@ -28,8 +28,6 @@ public class AfterReturningDemoApp {
 		
 		System.out.println("\n");
 		
-		
-		
 		//close the context
 		context.close();
 	}
