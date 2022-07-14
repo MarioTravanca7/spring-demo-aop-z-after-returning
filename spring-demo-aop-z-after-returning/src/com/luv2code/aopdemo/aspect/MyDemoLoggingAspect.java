@@ -40,9 +40,6 @@ public class MyDemoLoggingAspect {
 		
 	}
 	
-	
-	
-	
 	private void convertAccountNamesToUpperCase(List<Account> result) {
 		//loop through accounts
 		for(Account tempAccount : result) {
@@ -52,13 +49,7 @@ public class MyDemoLoggingAspect {
 			tempAccount.setName(theUpperName);
 			
 		}
-		
-		
-		
-		
 	}
-
-
 
 
 	@Before("com.luv2code.aopdemo.aspect.LuvAopExpressions.forDaoPackageNoGetterSetter()")
